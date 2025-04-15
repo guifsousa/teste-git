@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url(fundo\ lilas\ corações.png); 
+    background-size: cover;
+    background-repeat: repeat;  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 50px;
+      
+}
+
+#titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    
+}
+
+.borda{
+    background-color: rgb(245, 140, 205);
+    border-style: solid 10px;
+    padding: 50px;
+    border-radius: 40px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 100px red;
+  transition: box-shadow 0,5s, ease-in-out;
+  
+}
+
+.borda:hover{
+    box-shadow: 0 0 100px rgb(26, 0, 128) ;
+}
+
+
+.foto{
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+#botao{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(119, 49, 78, 0.219);
+    color: black;
+
+    border: solid 2px;
+    cursor:pointer;
+    border-radius: 20px;
+    width: 300px;
+    max-height: fit-content;
+    
+
+}
+
+.atribuicao{
+    position: relative;
+    display: flex;
+    left: 200px;
+    top: 350px;
+}
+
+
+    
+    
+    
+
